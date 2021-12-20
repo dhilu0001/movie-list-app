@@ -1,0 +1,88 @@
+.App {
+  background-color: rgba(0, 0, 0, 0.932);
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.movie-container {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  gap: 1rem;
+}
+
+.movie {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: azure;
+  margin: auto;
+}
+
+.image-container {
+  margin: auto;
+}
+
+.movie-title {
+  color: azure;
+  padding: 1rem;
+}
+
+.search-form {
+  padding: 1rem;
+}
+
+.search-icon {
+  color: white;
+  margin-left: 0.5rem;
+}
+
+.form-input {
+  background: rgba(0, 0, 0, 0.932);
+  color: white;
+  padding: 1rem;
+  border: none;
+}
+
+@media(max-width: 768px) {
+  .movie-container {
+    grid-template-columns: repeat(4, auto);
+    gap:1rem;
+  }
+  .image-container {
+    max-width: 150px;
+    max-height: 210px;
+    margin: auto;
+  }
+  .movie {
+    padding: 0;
+  }
+}
+
+@media(max-width: 500px) {
+  .movie-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:0;
+  }
+  .image-container {
+    max-width: 120px;
+    max-height: 200px;
+  }
+  .movie {
+    padding-top: 10px;
+  }
+  .movie-title {
+    color: azure;
+    padding: 0.5rem;
+  }
+  .search-form {
+    padding: 0.5rem;
+  }
+  .form-input {
+    padding: 0.2rem;
+    max-width: 10rem;
+  }
+  
+}
