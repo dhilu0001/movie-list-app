@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.0ec28e96.css",
-    "main.js": "/static/js/main.f353ca56.js",
-    "static/js/106.72b45b66.chunk.js": "/static/js/106.72b45b66.chunk.js",
-    "static/js/964.bf4c76bb.chunk.js": "/static/js/964.bf4c76bb.chunk.js",
-    "static/js/685.f72f07d3.chunk.js": "/static/js/685.f72f07d3.chunk.js",
-    "index.html": "/index.html",
-    "main.0ec28e96.css.map": "/static/css/main.0ec28e96.css.map",
-    "main.f353ca56.js.map": "/static/js/main.f353ca56.js.map"
+    "main.css": "/movie-list-app/static/css/main.0ec28e96.css",
+    "main.js": "/movie-list-app/static/js/main.cffa3575.js",
+    "static/js/106.72b45b66.chunk.js": "/movie-list-app/static/js/106.72b45b66.chunk.js",
+    "static/js/964.bf4c76bb.chunk.js": "/movie-list-app/static/js/964.bf4c76bb.chunk.js",
+    "static/js/685.f72f07d3.chunk.js": "/movie-list-app/static/js/685.f72f07d3.chunk.js",
+    "index.html": "/movie-list-app/index.html",
+    "main.0ec28e96.css.map": "/movie-list-app/static/css/main.0ec28e96.css.map",
+    "main.cffa3575.js.map": "/movie-list-app/static/js/main.cffa3575.js.map"
   },
   "entrypoints": [
     "static/css/main.0ec28e96.css",
-    "static/js/main.f353ca56.js"
+    "static/js/main.cffa3575.js"
   ]
 }
