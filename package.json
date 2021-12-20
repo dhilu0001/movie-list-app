@@ -2,7 +2,7 @@
   "name": "movie-list-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://dhilu0001.github.io/movie-list-app",
+  "homepage": "https://dhilu0001.github.io/movie-list-app",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
